@@ -1,0 +1,33 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "this is a test project for learn NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "SET \"NODE_ENV=production\" && nodemon server.js",
+    "debug": "ndb server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "js"
+  ],
+  "author": "mehtiuo",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.3",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "nodemon": "^2.0.20"
+  }
+}
